@@ -1,11 +1,11 @@
 package xyz.zzzxb.lft;
 
 import com.badlogic.gdx.Game;
+import xyz.zzzxb.lft.screen.GameScreen;
 
-/** {@link com.badlogic.gdx.ApplicationListener} implementation shared by all platforms. */
 public class GameMain extends Game {
     @Override
     public void create() {
-        setScreen(new FirstScreen());
+        setScreen(new GameScreen(this));
     }
 }
