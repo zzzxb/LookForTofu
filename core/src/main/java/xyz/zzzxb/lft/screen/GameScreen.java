@@ -1,7 +1,6 @@
 package xyz.zzzxb.lft.screen;
 
 
-import com.badlogic.ashley.core.Component;
 import com.badlogic.ashley.core.Engine;
 import com.badlogic.ashley.core.Entity;
 import com.badlogic.ashley.core.PooledEngine;
@@ -11,7 +10,6 @@ import com.badlogic.gdx.graphics.OrthographicCamera;
 import com.badlogic.gdx.graphics.Texture;
 import com.badlogic.gdx.graphics.g2d.TextureRegion;
 import com.badlogic.gdx.utils.ScreenUtils;
-import xyz.zzzxb.lft.components.Mappers;
 import xyz.zzzxb.lft.components.PositionComponent;
 import xyz.zzzxb.lft.components.VisualComponent;
 import xyz.zzzxb.lft.config.Config;
